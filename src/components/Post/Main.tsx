@@ -4,7 +4,7 @@ import Post from "./Post";
 
 const Main = () => {
   return (
-    <div className="grid grid-cols-3 gap-x-[20px] gap-y-[20px]">
+    <div className="flex flex-wrap justify-between gap-y-[20px]">
       {posts.map((data: IPost) => (
         <Post singlePost={data} key={data.id} />
       ))}

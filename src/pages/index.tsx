@@ -8,8 +8,8 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <div className="w-[1216px] mx-auto mt-[120px] mb-[115px]">
-        <h3 className="font-bold text-[24px] text-[#181A2A] mb-[32px] dark:text-white">
+      <div className="lg:w-[1216px] w-[90%] mx-auto lg:mt-[120px] md:mt-[150px] mt-8 mb-[115px]">
+        <h3 className="font-bold text-[18px] md:text-[24px] lg:text-[24px] text-[#181A2A] lg:mb-[32px] md:mb-[32px] mb-5 dark:text-white">
           Latest Posts
         </h3>
         <Main />
